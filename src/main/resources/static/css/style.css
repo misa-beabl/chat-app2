@@ -1,3 +1,75 @@
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.side {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.left-top {
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none
+}
+
+.createchat a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px lightblue solid;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.left-bottom {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.chatroom {
+  padding: 20px 20px 40px;
+}
+
+.chatname a{
+  color: white;
+  
+  text-decoration: none;
+}
+
+.main {
+  background-color: #ffffff;
+  height: 100vh;
+  width: calc(100vw - 300px);
+}
+
+.right-top {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.right-center {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+}
+
+.right-bottom {
+  background-color: #dddddd;
+  height: 90px;
+  padding: 20px 40px;
+}
